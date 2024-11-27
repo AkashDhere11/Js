@@ -1,0 +1,22 @@
+.totalContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productCartTotalElement{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.productCartTotalElement p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.productSubTotal,
+.productTax,
+.productFinalTotal{
+    color: red;
+}

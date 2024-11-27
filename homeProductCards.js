@@ -1,4 +1,5 @@
 import { homeQuantityToggle } from './homeQuantityToggle';
+import { addToCart } from './public/addToCart';
 const productContainer = document.querySelector("#productContainer");
 const productTemplate = document.querySelector("#productTemplate");
 
@@ -23,9 +24,19 @@ export const showProductContainer = (products) => {
         productClone.querySelector('.productStock').textContent = stock;
         productClone.querySelector('.productDescription').textContent = description;
 
-        productClone.querySelector('.stockElement').addEventListener("click", (event) => {
+        productClone
+        .querySelector('.stockElement')
+        .addEventListener("click", (event) => {
             homeQuantityToggle(event, id, stock);
         });
+
+        productClone
+        .querySelector('.add-to-cart-button')
+        .addEventListener('click', (event) => {
+            addToCart(event, id, stock);
+
+        })
+        
 
         productContainer.append(productClone);
     });

@@ -27,7 +27,7 @@
         "price": "999.99",
         "stock": "100",
         "description": "Powerfull laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14 inch FHD display.",
-        "image": "/public/photo-1594534475808-b18fc33b045e.avif"
+        "image": "/public/premium_photo-1683141052679-942eb9e77760.avif"
     },
     {
         "id": 4,
@@ -47,23 +47,12 @@
         "price": "1999.99",
         "stock": "50",
         "description": "Powerfull laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14 inch FHD display.",
-        "image": "/public/photo-1594534475808-b18fc33b045e.avif"
+        "image": "/public/premium_photo-1683141052679-942eb9e77760.avif"
     },
     {
         "id": 6,
         "name": "Watches",
         "catagory": "Wearables",
-        "brand": "ExampleBrand",
-        "price": "999.99",
-        "stock": "50",
-        "description": "Powerfull laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14 inch FHD display.",
-        "image": "/public/photo-1594534475808-b18fc33b045e.avif"
-    },
-
-    {
-        "id": 7,
-        "name": "Body-Lotion",
-        "catagory": "Beauty",
         "brand": "ExampleBrand",
         "price": "999.99",
         "stock": "50",

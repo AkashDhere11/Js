@@ -64,6 +64,13 @@ li {
   margin-right: 20px;
 }
 
+#cartValue i{
+  color: #ffffff;
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
 /* hero section */
 
 .containerf1 {
@@ -128,7 +135,9 @@ li {
 }
 
 .cards {
-  border: 2px solid grey;
+  border: 2px solid #808080;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
 }
 
 .card {
@@ -576,14 +585,23 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 50px auto;
-  padding: 20px;
+  margin: 20px auto;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 /* Columns for content */
+.policy{
+  border-bottom: 2px solid red;
+  margin-bottom: 50px;
+}
+
+.policy h2{
+  margin-top: 100px;
+}
+
 .policycontent,
 .policycontent.content2 {
   flex: 1 1 30%;
@@ -607,6 +625,9 @@ body {
 /* Individual policy-content items */
 .policy-content {
   margin-bottom: 30px;
+  border: 2px solid #808080;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
 }
 
 .policy-content h1 {
