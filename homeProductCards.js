@@ -1,5 +1,5 @@
 import { homeQuantityToggle } from './homeQuantityToggle';
-import { addToCart } from './public/addToCart';
+import { addToCart } from './addToCart';
 const productContainer = document.querySelector("#productContainer");
 const productTemplate = document.querySelector("#productTemplate");
 
